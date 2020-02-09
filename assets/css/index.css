@@ -1,0 +1,15 @@
+.container{
+  
+    padding-top: 200px;
+}
+
+/* media queries for the cards */
+@media screen and (max-width: 500px) {
+
+    .container{
+        width: 100%;
+        margin-top: 70px;
+    
+    }
+    
+    }
