@@ -40,6 +40,108 @@
         </div>
       </nav>
 
+<!-- opening container -->
+  <div class= "container">
+
+    <h1> Contact us</h1>
+
+    
+    <p>Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+        a matter of hours to help you.</p>
+
+<!-- my contact row open -->
+     <div class="row">
+
+<!--my contact col opens-->
+    <div class="col-md-9">
+
+<!-- form open -->
+    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+      
+<!--first row open-->
+      <div class="row">
+
+<!--first col-->
+         <div class="col-md-6">
+            <div class="md-form mb-0">
+              <input type="text" id="name" name="name" class="form-control">
+              <label for="name" class="">Your name</label>
+            </div>
+        </div>
+
+<!--second col-->
+          <div class="col-md-6">
+              <div class="md-form mb-0">
+                <input type="text" id="email" name="email" class="form-control">
+                <label for="email" class="">Your email</label>
+              </div>
+          </div>
+
+<!-- fisrt row closes -->
+      </div>
+
+<!--second row open-->
+      <div class="row">
+
+ <!--fisrt col  -->
+          <div class="col-md-12">
+              <div class="md-form mb-0">
+                      <input type="text" id="subject" name="subject" class="form-control">
+                      <label for="subject" class="">Subject</label>
+              </div>
+          </div>
+<!-- second row closes -->
+      </div>
+
+ <!--third row open-->
+          <div class="row">
+
+<!--first column-->
+          <div class="col-md-12">
+             <div class="md-form">
+                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                <label for="message">Your message</label>
+             </div>
+           </div>
+<!-- third row closes -->
+          </div>
+              
+<!-- form closes -->
+    </form>
+
+<!-- button -->
+        <div class="text-center text-md-left">
+              <button type="button" class="btn btn-dark" onclick="document.getElementById('contact-form').submit();">Send</button>
+            </div>
+        <div class="status">
+            </div>
+
+<!-- my contact row closes  -->
+    </div>
+      
+
+<!--contact info col -->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p>Nashville, TN 37212, USA</p>
+                </li>
+
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p>+ 1 310 770 8434</p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                  <p>charlennep@gmail.com</p>
+              </li>
+            </ul>
+        </div>
+        
+<!-- my contact col closes -->
+    </div>
+
+<!-- closing container -->
+</div>
 
 
 
@@ -47,8 +149,8 @@
 
 
        <!-- java script -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>   
-</body>
-</html>
+       <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>   
+   </body>
+   </html>
