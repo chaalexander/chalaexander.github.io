@@ -8,6 +8,10 @@
 
 }
 
+.btn-dark{
+
+    margin-left: 60px;
+}
 .footer {
     position: fixed;
     left: 0;
@@ -27,7 +31,8 @@ h6{
 
 .card{
     width: 100%;
-    margin: 10px;
+    margin-bottom: 40px;
+    margin-left: 40px;
 }
 
 }
