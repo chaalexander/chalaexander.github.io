@@ -12,6 +12,9 @@
 
 p{
     font-size: 1.5vw;
+    text-align: justify;
+    margin-left: 5px;
+    text-indent: 20px;
 }
 
 .footer {
