@@ -24,11 +24,12 @@ h6{
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 989px) {
 
     .container{
         width: 100%;
         margin: 0px;
+        margin-top:30px;
     }
 /* information text */
     .list-unstyled {

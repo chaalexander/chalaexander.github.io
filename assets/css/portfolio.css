@@ -27,12 +27,10 @@ h6{
 }
 
 /* media queries for the cards */
-@media screen and (max-width: 500px) {
-
-.card{
-    width: 100%;
-    margin-bottom: 40px;
-    margin-left: 40px;
-}
-
+@media screen and (max-width: 989px) {
+    .card{
+        width: 100%;
+        margin-bottom: 40px;
+        margin-left: 40px;
+    }
 }
