@@ -1,5 +1,5 @@
 .container{
-    padding-top: 15vw;
+    padding-top: 5vw;
 }
 
 .card-text{
@@ -28,6 +28,13 @@ h6{
 
 img{
     padding: 10px;
+}
+
+
+.card{
+
+margin-bottom: 3vw;
+
 }
 
 /* media queries for the cards */
