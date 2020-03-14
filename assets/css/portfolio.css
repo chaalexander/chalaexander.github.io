@@ -1,47 +1,46 @@
-.container{
-    padding-top: 5vw;
+.container {
+  padding-top: 5vw;
 }
 
-.card-text{
-    margin: 2.0vw;
-    text-align: center;
-
+.card-text {
+  margin: 2vw;
+  text-align: center;
 }
 
-.btn-dark{
-
-    margin-left: 60px;
+.btn-dark {
+  margin-left: 60px;
 }
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color:darkgray;
-    color: white;
-    text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: darkgray;
+  color: white;
+  text-align: center;
 }
 
-h6{
-    margin: 10px;
+h6 {
+  margin: 10px;
 }
 
-img{
-    padding: 10px;
+img {
+  padding: 10px;
 }
 
+.card {
+  margin-bottom: 5vw;
+}
 
-.card{
-
-margin-bottom: 3vw;
-
+.card-7 {
+  margin-bottom: 7vw;
 }
 
 /* media queries for the cards */
 @media screen and (max-width: 989px) {
-    .card{
-        width: 100%;
-        margin-bottom: 40px;
-        margin-left: 40px;
-    }
+  .card {
+    width: 100%;
+    margin-bottom: 40px;
+    margin-left: 40px;
+  }
 }
