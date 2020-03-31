@@ -3,20 +3,21 @@
 
 # <h2> Live Link 
 
- https://chaalexander.github.io/
+<a href= "https://chaalexander.github.io/" target="_blank">Live Link</a>
 
 # <h2>Contributor
-@chaalexander
+<a href= "https://github.com/chaalexander" target="_blank">Cha Alexander </a>
 
 # <h2> Tecnology Stack
 
 * HTML
 * CSS
 * Bootstrap
+* W3 Schools
 
 # <h2> About 
 
-My Portfolio Wesite. 
+My Portfolio. 
 
 # <h2> License
 
@@ -24,10 +25,14 @@ MIT
 
 # <h2> Contact
 
-* Name: Charlenne Alexander (@chaalexander)
+Cha Alexander 
 
-* Webpage: https://chaalexander.github.io/
+<a href= "https://github.com/chaalexander" target="_blank">GitHub</a>
 
-* e-mail: charlennep@gmail.com
+<a href= "https://chaalexander.github.io/" target="_blank">Portfolio</a>
 
-* Linkedln: https://www.linkedin.com/in/charlenne-alexander-281763103/
+
+
+<a href= "https://www.linkedin.com/in/charlenne-alexander-281763103/" target="_blank">LinkedIn</a>
+
+charlennep@gmail.com
