@@ -1,24 +1,34 @@
+/* about */
+#about {
+    margin-top: 25px;
+}
+
+#aboutme {
+    font-size: 2.0vw;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.abt {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.img {
+    width: 15vw;
+    height: 22vw;
+    border-radius: 8mm;
+    margin: 2vw;
+
+}
+
+/* contact */
 #contact {
     margin: 50px;
 }
 
-#about {
-    margin: 20px;
 
-}
-
-/* information text */
-p {
-    padding-bottom: 40px;
-}
-
-#aboutme {
-    font-size: 1.5vw;
-    text-align: center;
-    margin-left: 5px;
-    text-indent: 20px;
-}
-
+/* footer */
 .footer {
     position: fixed;
     left: 0;
@@ -31,23 +41,13 @@ p {
 
 }
 
-/* footer text */
 h6 {
     margin: 10px;
 }
 
-.abt {
-    text-align: center;
-}
 
 
 
-.img {
-    width: 15vw;
-    height: 22vw;
-    border-radius: 4mm;
-
-}
 
 /* media query for contact */
 @media screen and (max-width: 989px) {
