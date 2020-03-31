@@ -33,6 +33,6 @@ Cha Alexander
 
 
 
-<a href= "https://www.linkedin.com/in/charlenne-alexander-281763103/" target="_blank">LinkedIn</a>
+<a href= "https://www.linkedin.com/in/cha-alexander/" target="_blank">LinkedIn</a>
 
 charlennep@gmail.com
