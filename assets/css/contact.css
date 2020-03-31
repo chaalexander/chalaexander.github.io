@@ -1,10 +1,22 @@
-.container{
+#contact {
     margin: 50px;
 }
 
+#about {
+    margin: 20px;
+
+}
+
 /* information text */
-p{
+p {
     padding-bottom: 40px;
+}
+
+#aboutme {
+    font-size: 1.5vw;
+    text-align: justify;
+    margin-left: 5px;
+    text-indent: 20px;
 }
 
 .footer {
@@ -12,35 +24,68 @@ p{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color:darkgray;
+    background-color: darkgray;
     color: white;
     text-align: center;
     margin-top: 30px;
-    
+
 }
 
 /* footer text */
-h6{
+h6 {
     margin: 10px;
 }
 
+.img {
+    width: 33vw;
+    height: 50vw;
+    border-radius: 4mm;
 
+}
+
+/* media query for contact */
 @media screen and (max-width: 989px) {
 
-    .container{
+    #contact {
         width: 100%;
         margin: 0px;
-        margin-top:30px;
+        margin-top: 30px;
     }
-/* information text */
+
     .list-unstyled {
-        margin:25px;
-        
+        margin: 25px;
+
 
     }
-/* information text */
-    p{
+
+    p {
         padding-bottom: 30px;
     }
 
+}
+
+/* media queries for about */
+@media screen and (max-width: 989px) {
+
+    .media {
+        width: 100%;
+        height: 100%;
+        margin-left: -20px;
+    }
+
+    .media-body {
+        width: 100%;
+        margin-left: -10px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    #aboutme {
+        text-align: justify;
+        font-size: 20px;
+        margin-left: 16px;
+        text-indent: 20px;
+    }
 }
