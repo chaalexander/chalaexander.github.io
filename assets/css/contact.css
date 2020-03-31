@@ -134,6 +134,10 @@ img {
     text-align: center;
   }
 
+  #about {
+    margin-left: 20px;
+  }
+
   #aboutme {
     text-align: center;
     font-size: 15px;
