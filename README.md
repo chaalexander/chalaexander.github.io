@@ -1,7 +1,9 @@
 
 <img align="left" src= "https://img.shields.io/badge/License-MIT-green">
 <img align="right" width="100" height="100" src="https://avatars1.githubusercontent.com/u/59755481?v=4">
-<h1 align= "center"> My Portfolio</h1> 
+<h1 align= "center"> My Portfolio</h1>
+<h2>Live Link</h2>
+<h3><a href= "https://chaalexander.github.io/">Live Link</a></h3>   
 <h2> Table of Contents </h2>
 <li><a href="#description">Description</a></li>  
 <li><a href="#tech">Technology Stack</a></li> 
