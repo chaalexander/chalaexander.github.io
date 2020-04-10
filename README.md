@@ -11,8 +11,9 @@
 <li><a href="#contributors">Contributors</a></li>   
 <li><a href="#contact">Contact</a></li> 
 <h2 id="description"> Description </h2>
-<p>My portfolio. Here you can see some of my work.</p>   
-<h2 id="tech"> Boostrap, HTML, CSS</h2>          
+<p>My portfolio. Here you can see some of my work.</p>  
+<h2 id="tech"> Technology Stack </h2>  
+<p>Boostrap, HTML, CSS</p>  
 <h2 id="screen"> ScreenShoots </h2>
 <h4>Desktop view</h4>
 <img src= "assets/images/screen-shoots/desktop-version.png">
