@@ -62,6 +62,14 @@ h6 {
 
 /* portfolio */
 
+.go-to {
+  color: white !important;
+  margin-left: 30px;
+  border-radius: 10px;
+}
+.employee {
+  margin-left: 90px;
+}
 .port {
   padding-top: 5vw;
 }
@@ -69,10 +77,6 @@ h6 {
 .card-text {
   margin: 2vw;
   text-align: center;
-}
-
-.btn-dark {
-  margin-left: 50px;
 }
 
 h6 {
