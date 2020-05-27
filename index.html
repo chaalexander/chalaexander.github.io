@@ -1,220 +1,377 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cha Alexander</title>
+    <!-- Bulma Version 0.8.x-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/2828f7885a.js"
+      integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" />
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="shortcut icon" href="assets/images/favicon.png" />
-  <link rel="stylesheet" href="assets/css/style.css">
-
-  <script src="https://kit.fontawesome.com/1185b1a08b.js" crossorigin="anonymous"></script>
-
-  <title>Cha Alexander</title>
-</head>
-
-<body>
-
-  <!-- nav bar opens -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
-    <a class="navbar-brand">
-      <h1>Cha Alexander</h1>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-
-        <!-- about me button -->
-        <li class="nav-item">
-          <a class="nav-link" href="#about">About</a>
-        </li>
-        <!-- portfolio button -->
-        <li class="nav-item">
-          <a class="nav-link" href="#portfolio">Portfolio</a>
-        </li>
-        <!-- contact button with active -->
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
-        </li>
-
-      </ul>
-    </div>
-    <!-- nav bar closes -->
-  </nav>
-
-  <!-- opens container about -->
-  <div class="container" id="about">
-
-
-    <div class="media w3-black">
-
-      <img src="assets/images/profile pic.png" class="img" alt="Profile Picture">
-      <div class="media-body">
-        <h2 class="abt">About </h2>
-        <p id="aboutme"> Brazilian full Stack Web Developer with a background in sales, fashion and customer service providing strong
-        problem-solving skills with a keen eye for aesthetics and presentation. An excellent communicator and
-        collaborator who works well in team-based projects and independently with very strong interpersonal
-        skills. Effectively leverage interest in solving complex problems by contributing as a part of a fast paced,
-        quality-driven team.
-        </p>
-        <p class="inconabt"><a href="https://github.com/chaalexander " target="_blank"><i class="fab fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/cha-alexander" target="_blank"><i class="fab fa-linkedin"></i></a></p>
+  <body>
+    <!-- Begin Preloader -->
+    <div class="preloader-wrapper">
+      <div class="preloader">
+        <img src="img/preloader.gif" alt="" />
       </div>
     </div>
+    <!-- End Preloader-->
+    <!-- Begin Scroll Up Button -->
 
-    <!-- closes about container -->
-  </div>
+    <form action="#home">
+      <button id="toTop" title="Go to top">
+        <i class="fas fa-angle-up"></i>
+      </button>
+    </form>
+    <!-- End Scroll Up Button -->
 
-
-  <!-- opening container portfolio-->
-  <div class="container port" id="portfolio">
-
-
-    <div class="row">
-
-      <!-- first card -->
-      <div class="col-sm">
-        <div class="card" style="width: 18rem;height: 350px">
-          <img src="assets/images/stickler's.jpeg" class="card-img-top" alt="Stickler's Paradise">
-          <div class="card-body">
-            <h5 class="card-title">Stickler's Paradise</h5>
-            <p class="card-text">Application to search rules of games.</p>
-            
-            <a href="https://sticklersparadise.herokuapp.com/" target="_blank" class="btn btn-dark">Live Link</a>
-            <a href="https://github.com/chaalexander/rules" target="_blank" class="btn btn-dark">Code</a>
-            
-           </div>
-        </div>
-      </div>
-
-      <!-- second card -->
-      <div class="col-sm">
-        <div class="card card-8" style="width: 18rem;height: 350px">
-          <img src="assets/images/brewery.png" class="card-img-top" alt="Libations">
-          <div class="card-body">
-            <h5 class="card-title">Libations</h5>
-            <p class="card-text">Look up Breweries at the city you are at.</p>
-            <a  href="https://armcbride.github.io/libations/"  target="_blank" class="btn btn-dark">Live Link</a>
-            <a  href="https://github.com/armcbride/libations" target="_blank" class="btn btn-dark">Code</a>
+    <!-- Begin Header -->
+    <div class="header-wrapper" id="home">
+      <!-- Begin Hero -->
+      <section class="hero is-large">
+        <!-- Begin Mobile Nav -->
+        <nav class="navbar is-transparent is-hidden-desktop">
+          <!-- Begin Burger Menu -->
+          <div class="navbar-brand">
+            <div class="navbar-burger burger" data-target="mobile-nav">
+              <span></span>
+              <span></span>
+              <span></span>
             </div>
-        </div>
-      </div>
-
-      <!-- third card -->
-      <div class="col-sm">
-        <div class="card" style="width: 18rem;height: 350px">
-          <img src="assets/images/employee.jpeg" class="card-img-top" alt="Employee-Summary">
-          <div class="card-body">
-            <h5 class="card-title">Employee Summary</h5>
-            <p class="card-text">Generates a employee summary on Node.js.</p>
-            <a  href="https://github.com/chaalexander/employeeSummary" target="_blank" class="btn btn-dark employee">Code</a>
+          </div>
+          <!-- End Burger Menu -->
+          <div id="mobile-nav" class="navbar-menu">
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <a class="navbar-item" href="#home">
+                  Home
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#about-me">
+                  About Me
+                </a>
+              </div>
+              
+              <div class="navbar-item">
+                <a class="navbar-item" href="#skills">
+                  Skills
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#my-work">
+                  My Work
+                </a>
+              </div>
+              
             </div>
-        </div>
-      </div>
-
-      <!-- fourth card -->
-      <div class="col-sm">
-        <div class="card" style="width: 18rem;height: 350px">
-          <img src="assets/images/password.jpeg" class="card-img-top" alt="password generator">
-          <div class="card-body">
-            <h5 class="card-title">Password generator</h5>
-            <p class="card-text">Password Generator website.</p>
-            <a  href="https://chaalexander.github.io/password-generator-/" target="_blank" class="btn btn-dark">Live Link</a>
-          <a  href="https://github.com/chaalexander/password-generator-" target="_blank" class="btn btn-dark">Code</a>
+          </div>
+        </nav>
+        <!-- End Mobile Nav -->
+        <!-- Begin Hero Content-->
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <h1 class="subtitle">Hey there, I'm</h1>
+            <h2 class="title">Cha</h2>
+            <h1 class="subtitle profession">A Full Stack Web Developer</h1>
           </div>
         </div>
-      </div>
-
-      <!-- five card -->
-      <div class="col-sm">
-        <div class="card card-7" style="width: 18rem; height: 350px;">
-          <img src="assets/images/weather.jpeg" class="card-img-top" alt="Weather Report">
-          <div class="card-body">
-            <h5 class="card-title">Weather Report</h5>
-            <p class="card-text">Weather Report, current and next 5 days search.</p>
-            <a  href="https://chaalexander.github.io/weatherreport/" target="_blank" class="btn btn-dark">Live Link</a>
-            <a  href="https://github.com/chaalexander/weatherreport" target="_blank" class="btn btn-dark">Code</a>
+        <!-- End Hero Content-->
+        <!-- Begin Hero Menu -->
+        <div class="hero-foot">
+          <div class="hero-foot--wrapper">
+            <div class="columns">
+              <div class="column is-12 hero-menu-desktop has-text-centered">
+                <ul>
+                  <li class="is-active">
+                    <a href="#home">Home</a>
+                  </li>
+                  <li>
+                    <a href="#about-me">About Me</a>
+                  </li>
+                  
+                  <li>
+                    <a href="#skills">Skills</a>
+                  </li>
+                  <li>
+                    <a href="#my-work">My Work</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-
-      <!-- six card -->
-      <div class="col-sm">
-        <div class="card" style="width: 18rem; height: 350px">
-          <img src="assets/images/bob.jpeg" class="card-img-top" alt="Bob's Burger">
-          <div class="card-body">
-            <h5 class="card-title">Bob's Burger</h5>
-            <p class="card-text">Application bi-lingual created to keep track of burgers.</p>
-            <a  href="https://bobs-burger-ca.herokuapp.com/" target="_blank" class="btn btn-dark">Live Link</a>
-            <a  href="https://github.com/chaalexander/bobsBurger" target="_blank" class="btn btn-dark">Code</a>
-          </div>
-        </div>
-      </div>
-
-
-
-
-      <!-- closing portfolio container -->
+        <!-- End Hero Menu -->
+      </section>
+      <!-- End Hero -->
     </div>
+    <!-- End Header -->
 
-    <!-- opening contact container -->
-    <div class="container" id="contact">
-
-      <h1 class="me"> Contact me</h1>
-      <ul class="list-unstyled">
-
-        <a href="https://github.com/chaalexander " target="_blank"><img src="assets/images/github.png" class="icon"
-            alt="github"></a>
-        <a href="https://www.linkedin.com/in/cha-alexander" target="_blank"><img src="assets/images/linkedin.png"
-            class="icon" alt="linkedin"></a>
-       <a href="mailto:charlennep@gmail.com"><img src="assets/images/gmail.png" class="icon" alt="gmail"></a>
-       <a href="assets/resume/Resume.pdf" target="_blank"><img src="assets/images/resume.png" class="icon"
-            alt="resume"></a>
-      </ul>
+    <!-- Begin Main Content -->
+    <div class="main-content">
+      <!-- Begin About Me Section -->
+      <div class="section-light about-me" id="about-me">
+        <div class="container">
+          <div class="column is-12 about-me">
+            <h1 class="title has-text-centered section-title">About Me</h1>
+          </div>
+          <div class="columns is-multiline">
+            <div
+              class="column is-6 has-vertically-aligned-content"
+              data-aos="fade-right"
+            >
+              <p class="is-larger">
+                &emsp;&emsp;<strong
+                  >A little about me</strong
+                >
+              </p>
+              <br />
+              <p>
+                Brazilian full Stack Web Developer with a background in sales, fashion and customer service providing strong
+                problem-solving skills with a keen eye for aesthetics and presentation. An excellent communicator and
+                collaborator who works well in team-based projects and independently with very strong interpersonal
+                skills. Effectively leverage interest in solving complex problems by contributing as a part of a fast paced,
+                quality-driven team.
+              </p>
+              <br />
+              <div class="is-divider"></div>
+              <div class="columns about-links">
+                <div class="column">
+                  <p class="heading">
+                  <a href="https://www.linkedin.com/in/cha-alexander" target="_blank">
+                    <strong>LinkedIn</strong></a>
+                  </p>
+                 </div>
+                <div class="column">
+                  <p class="heading">
+                    <a href="https://github.com/chaalexander " target="_blank">
+                      <strong>GitHub</strong></a>
+                  </p>
+                </div>
+                <div class="column">
+                  <p class="heading">
+                   <a href="mailto:charlennep@gmail.com">
+                    <strong>Email Me</strong></a>
+                  </p>
+                </div>
+                
+              </div>
+            </div>
+            <div class="column is-6 right-image" data-aos="fade-left">
+              <img
+                class="is-rounded"
+                src="https://picsum.photos/id/366/600/375"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End About Me Content -->
+      <div class="section-dark resume">
+        <div class="container">
+          <div
+            class="columns is-multiline"
+            data-aos="fade-in"
+            data-aos-easing="linear"
+          >
+            <div class="column is-12 about-me">
+              <h1 class="title has-text-centered section-title">
+                View My Resume
+              </h1>
+            </div>
+            <div class="column is-10 has-text-centered is-offset-1">
+              <h2 class="subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et doloremagna aliqua
+              </h2>
+              <form action="example.docs">
+                <button class="button">
+                  Download Resume&emsp;<i class="fad fa-download fa-lg"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+      <!-- Begin Skills Content -->
+      <div class="section-light skills" id="skills">
+        <div class="container">
+          <div class="columns is-multiline">
+            <div class="column is-12 about-me">
+              <h1 class="title has-text-centered section-title">Skills</h1>
+            </div>
+            <div
+              class="column is-6"
+              data-aos="fade-in"
+              data-aos-easing="linear"
+            >
+              <h1>Adobe Experience Design</h1>
+              <progress class="progress" value="70" max="100">30%</progress>
+              <h1>Adobe After Effects</h1>
+              <progress class="progress" value="65" max="100">30%</progress>
+              <h1>Visual Studio Code</h1>
+              <progress class="progress" value="58" max="100">45%</progress>
+              <h1>Sketch</h1>
+              <progress class="progress" value="90" max="100">60%</progress>
+            </div>
+            <div
+              class="column is-6"
+              data-aos="fade-in"
+              data-aos-easing="linear"
+            >
+              <h1>HTML</h1>
+              <progress class="progress" value="85" max="100">30%</progress>
+              <h1>CSS</h1>
+              <progress class="progress" value="95" max="100">30%</progress>
+              <h1>VueJS</h1>
+              <progress class="progress" value="70" max="100">45%</progress>
+              <h1>React</h1>
+              <progress class="progress" value="60" max="100">60%</progress>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Skills Content -->
+      <!-- Begin Work Content -->
+      <div class="section-dark my-work" id="my-work">
+        <div class="container">
+          <div
+            class="columns is-multiline"
+            data-aos="fade-in"
+            data-aos-easing="linear"
+          >
+            <div class="column is-12">
+              <h1 class="title has-text-centered section-title">My Work</h1>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="image is-2by1 work-item"
+                  style="
+                    background-image: url('https://picsum.photos/320/180?image=0');
+                  "
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="image is-2by1 work-item"
+                  style="
+                    background-image: url('https://picsum.photos/320/180?image=10');
+                  "
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="image is-2by1 work-item"
+                  style="
+                    background-image: url('https://picsum.photos/320/180?image=20');
+                  "
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="image is-2by1 work-item"
+                  style="
+                    background-image: url('https://picsum.photos/320/180?image=30');
+                  "
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="image is-2by1 work-item"
+                  style="
+                    background-image: url('https://picsum.photos/320/180?image=40');
+                  "
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="image is-2by1 work-item"
+                  style="
+                    background-image: url('https://picsum.photos/320/180?image=50');
+                  "
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="image is-2by1 work-item"
+                  style="
+                    background-image: url('https://picsum.photos/320/180?image=60');
+                  "
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="image is-2by1 work-item"
+                  style="
+                    background-image: url('https://picsum.photos/320/180?image=70');
+                  "
+                ></figure>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Work Content -->
       
+    <!-- End Main Content -->
 
-
-
-
-      <!-- closing contact container -->
+    <!-- Begin Footer -->
+    <div class="footer">
+      <p>
+        <strong class="white">Bulma</strong> by
+        <a href="http://jgthms.com">Jeremy Thomas</a>. The source code is
+        licensed
+        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The
+        website content is licensed
+        <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+          >CC BY NC SA 4.0</a
+        >.
+      </p>
     </div>
-    <!-- footer opening -->
-    <div class=footer>
-      <h6>
-        <i class="far fa-copyright"></i> Cha Alexander
-        <a href="https://github.com/chaalexander " target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/cha-alexander" target="_blank"><i class="fab fa-linkedin"></i></a>
-      </h6>
-      <!-- footer closing -->
-    </div>
+    <!-- End Footer -->
 
-
-
-
-
-
-
-
-
-
-
-    <!-- java script -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <link
+      href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: "ease-out",
+        duration: 800,
+      });
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-    </script>
-</body>
-
+  </body>
 </html>
