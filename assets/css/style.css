@@ -110,6 +110,8 @@ html {
   padding-top: 100px;
 }
 
+
+
 @media (max-width: 599px) {
   .main-content .section-dark.resume {
     padding-top: 75px;
