@@ -20,10 +20,10 @@ html {
 }
 
 .hero {
-  background-image: url(https://wallpaperplay.com/walls/full/c/a/6/333915.jpg);
+  background-image: url("../images/background.jpg");
+
   background: linear-gradient(rgba(31, 44, 108, 0.65), rgba(31, 44, 108, 0.65)),
-    rgba(0, 0, 0, 0.55)
-      url("https://wallpaperplay.com/walls/full/c/a/6/333915.jpg") no-repeat;
+    rgba(0, 0, 0, 0.55) url("../images/background.jpg") no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: white;
