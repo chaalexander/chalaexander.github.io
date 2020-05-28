@@ -105,6 +105,11 @@ html {
   padding: 60px 0px;
 }
 
+.work {
+  margin: 10px;
+  text-align: center;
+  font-weight: bold;
+}
 .main-content .section-dark.resume {
   height: 400px;
   padding-top: 100px;
