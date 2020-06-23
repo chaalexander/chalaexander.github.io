@@ -15,14 +15,14 @@
 <ul>
 <li>HTML</li>
 <li>CSS</li>
-<li>JQuery</li>
-<li>Bulma</li>
+<li>React.js</li>
+<li>Boostrap</li>
 </ul> 
 <h2 id="screen"> ScreenShoots </h2>
 <h4>Desktop view</h4>
-<img src= "assets/images/screen-shoots/desktop.png">
+<!-- <img src= ""> -->
 <h4>Mobile view</h4>
-<img width="200" height="350" src= "assets/images/screen-shoots/mobile.png">
+<!-- <img width="200" height="350" src= ""> -->
 <h2 id="contributors"> Contributors </h2>
 <p><a href= "https://github.com/chaalexander">@chaalexander</a></p> 
 <h2 id="contact"> Contact </h2>         
