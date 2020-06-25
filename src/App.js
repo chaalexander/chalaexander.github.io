@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavBar from "./components/layout/NavBar";
+import Footer from "./components/layout/Footer";
 
 import "./App.css";
 
@@ -14,9 +15,8 @@ class App extends Component {
   render() {
     return (
       <Router>
-        
-          <NavBar />
-          
+        <NavBar />
+        <Footer />
       </Router>
     );
   }
@@ -25,5 +25,3 @@ class App extends Component {
 App.propTypes = {};
 
 export default App;
-
-

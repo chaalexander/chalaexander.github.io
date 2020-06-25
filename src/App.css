@@ -3,3 +3,34 @@
   margin-top: 50px;
   font-size: 200px;
 }
+
+/* contact */
+#contact {
+  margin-bottom: 50px;
+}
+
+.me,
+.list-unstyled {
+  text-align: center;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+}
+
+/* footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: darkgray;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+
+h6 {
+  margin: 10px;
+}
