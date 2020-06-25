@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "cardTitle": "Stickler's Paradise",
+    "cardImage": "public/assets/images/potfolio/stickler's.jpeg",
+    "cardText": "Application to search rules of games.",
+    "liveLink": "https://sticklersparadise.herokuapp.com/",
+    "code": "https://github.com/chaalexander/rules"
+  },
+  {
+    "id": 1,
+    "cardTitle": "Stickler's Paradise",
+    "cardImage": "public/assets/images/potfolio/stickler's.jpeg",
+    "cardText": "Application to search rules of games.",
+    "liveLink": "https://sticklersparadise.herokuapp.com/",
+    "code": "https://github.com/chaalexander/rules"
+  },
+  {
+    "id": 1,
+    "cardTitle": "Stickler's Paradise",
+    "cardImage": "public/assets/images/potfolio/stickler's.jpeg",
+    "cardText": "Application to search rules of games.",
+    "liveLink": "https://sticklersparadise.herokuapp.com/",
+    "code": "https://github.com/chaalexander/rules"
+  }
+]
