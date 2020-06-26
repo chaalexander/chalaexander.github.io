@@ -2,11 +2,12 @@ import React from "react";
 // import { Link } from "react-router-dom";
 import "./App.css";
 
+
 function About() {
     return (
 <div className="container" id="about">
 <div className="media w3-black">
-      <img src="public/assets/images/profile.png" className="img" alt="Profile Picture">
+<img src="../../../public/assets/images/profile.png" className="img" alt="Profile Picture" />
 <div className="media-body">
         <h2 className="abt">About </h2>
         <p className="aboutme"> Brazilian full Stack Web Developer with a background in sales, fashion and customer service providing strong
@@ -15,8 +16,8 @@ function About() {
         skills. Effectively leverage interest in solving complex problems by contributing as a part of a fast paced,
         quality-driven team.
         </p>
-        <p className="inconabt"><a href="https://github.com/chaalexander " target="_blank"><i className="fab fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/cha-alexander" target="_blank"><i className="fab fa-linkedin"></i></a></p>
+        <p className="inconabt"><Link to="https://github.com/chaalexander " target="_blank" /><i className="fab fa-github"></i></Link>
+          <Link to="https://www.linkedin.com/in/cha-alexander" target="_blank" /><i className="fab fa-linkedin"></i></Link></p>
 </div>
 </div>
 </div>)
