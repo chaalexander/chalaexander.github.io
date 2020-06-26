@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-// import PropTypes from 'prop-types';
 import portfolioInfo from "../../portfolio.json";
 import Cards from "../Cards";
 
