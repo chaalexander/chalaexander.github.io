@@ -5,7 +5,7 @@ const styles = {
   card: {
     width: "18rem",
     height: "350px",
-    margin: "20px",
+    margin: "45px",
   },
 };
 

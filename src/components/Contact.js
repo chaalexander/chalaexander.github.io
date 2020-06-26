@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import github from "../../assets/images/icons/github.png";
-import linkedin from "../../assets/images/icons/linkedin.png";
-import gmail from "../../assets/images/icons/gmail.png";
-import resume from "../../assets/resume.pdf";
-import resumeIcon from "../../assets/images/icons/resume.png";
+import github from "../assets/images/icons/github.png";
+import linkedin from "../assets/images/icons/linkedin.png";
+import gmail from "../assets/images/icons/gmail.png";
+import resume from "../assets/resume.pdf";
+import resumeIcon from "../assets/images/icons/resume.png";
 
 export default function Contact() {
   return (
