@@ -6,7 +6,6 @@ function About() {
   return (
     <>
       <div className="container" id="about">
-        <h1 className="abt">About </h1>
         <div className="media w3-black">
           <img src={profilePic} className="img" alt="Profile Picture" />
           <div className="media-body">
@@ -21,17 +20,16 @@ function About() {
               complex problems by contributing as a part of a fast paced,
               quality-driven team.
             </p>
-            {/* <p className="inconabt">
-              <a href="https://github.com/chaalexander " target="_blank">
-                <i className="fab fa-github"></i>
-              </a>{" "}
-              <a
-                href="https://www.linkedin.com/in/cha-alexander"
-                target="_blank"
-              >
-                <i className="fab fa-linkedin"></i>
-              </a>
-            </p> */}
+            <p className="iconabt">
+              <i className="fab fa-js-square fa-2x"></i>{" "}
+              <i className="fab fa-react fa-2x"></i>{" "}
+              <i className="fab fa-html5 fa-2x"></i>{" "}
+              <i className="fab fa-css3-alt fa-2x"></i>{" "}
+              <i className="fab fa-bootstrap fa-2x"></i>{" "}
+              <i className="fab fa-npm fa-2x"></i>{" "}
+              <i className="fab fa-node fa-2x"></i>{" "}
+              <i className="fab fa-git fa-2x"></i>
+            </p>
           </div>
         </div>
       </div>

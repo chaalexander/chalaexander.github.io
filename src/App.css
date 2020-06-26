@@ -96,14 +96,15 @@ img {
   margin-top: 30px;
 }
 
-.fab {
-  color: white;
-}
-
 h6 {
   margin: 10px;
 }
-
+.ft {
+  color: white;
+}
+.iconbt {
+  color: black;
+}
 @media screen and (max-width: 989px) {
   .btn-dark {
     margin: 5px;
@@ -115,7 +116,7 @@ h6 {
     margin-left: -25px;
     border-radius: 30px;
   }
-  .fab {
+  .ft {
     color: white;
   }
   .img {

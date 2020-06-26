@@ -6,10 +6,10 @@ export default function Footer() {
       <h6>
         <i class="far fa-copyright"></i> Cha Alexander{" "}
         <a href="https://github.com/chaalexander " target="_blank">
-          <i class="fab fa-github"></i>
+          <i class="fab fa-github ft"></i>
         </a>{" "}
         <a href="https://www.linkedin.com/in/cha-alexander" target="_blank">
-          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-linkedin ft"></i>
         </a>
       </h6>
     </div>
