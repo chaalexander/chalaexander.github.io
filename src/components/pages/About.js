@@ -7,7 +7,7 @@ function About() {
     <>
       <div className="container" id="about">
         <div className="media w3-black">
-          <img src={profilePic} className="img" alt="Profile Picture" />
+          <img src={profilePic} className="img" alt="Profile" />
           <div className="media-body">
             <p id="aboutme">
               {" "}
