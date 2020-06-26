@@ -5,6 +5,7 @@ import Footer from "./components/layout/Footer";
 import Contact from "./components/pages/Contact";
 import Wrapper from "./components/Wraper";
 import About from "./components/pages/About";
+import Portfolio from "./components/pages/Portfolio";
 import "./App.css";
 
 class App extends Component {
@@ -21,6 +22,7 @@ class App extends Component {
           <Wrapper>
             <NavBar />
             <About />
+            <Portfolio />
             <Contact />
 
             <Footer />
