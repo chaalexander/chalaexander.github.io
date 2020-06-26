@@ -16,6 +16,7 @@ class App extends Component {
     return (
       <Router>
         <NavBar />
+        {/* <Wrapper></Wrapper> */}
         <Footer />
       </Router>
     );

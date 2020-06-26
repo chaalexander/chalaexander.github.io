@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function About() {
     return (
@@ -14,8 +14,8 @@ function About() {
         skills. Effectively leverage interest in solving complex problems by contributing as a part of a fast paced,
         quality-driven team.
         </p>
-        <p className="inconabt"><Link to="https://github.com/chaalexander " target="_blank"><i className="fab fa-github"></i></Link>
-          <Link to="https://www.linkedin.com/in/cha-alexander" target="_blank"><i className="fab fa-linkedin"></i></Link></p>
+        <p className="inconabt"><a href="https://github.com/chaalexander " target="_blank"><i className="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/cha-alexander" target="_blank"><i className="fab fa-linkedin"></i></a></p>
 </div>
 </div>
 </div>)
