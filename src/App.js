@@ -4,6 +4,7 @@ import NavBar from "./components/layout/NavBar";
 import Footer from "./components/layout/Footer";
 import Contact from "./components/pages/Contact";
 import Wrapper from "./components/Wraper";
+import About from "./components/pages/About";
 import "./App.css";
 
 class App extends Component {
@@ -19,7 +20,7 @@ class App extends Component {
         <>
           <Wrapper>
             <NavBar />
-
+            <About />
             <Contact />
 
             <Footer />
