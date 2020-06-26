@@ -1,17 +1,8 @@
 import React from "react";
 
-
-const styles = {
-  card: {
-    width: "18rem",
-    height: "350px",
-    margin: "45px",
-  },
-};
-
 function Cards(props) {
   return (
-    <div className="card" style={styles.card}>
+    <div className="card">
       <img src={props.cardImage} className="card-img-top" alt={props.title} />
       <div className="card-body">
         <h5 className="card-title">{props.cardTitle}</h5>

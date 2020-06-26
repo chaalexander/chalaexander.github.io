@@ -11,10 +11,6 @@ class Portfolio extends Component {
     };
   }
 
-  // componentWillMount() {
-
-  // }
-
   render() {
     return (
       <div className="container port" id="portfolio">

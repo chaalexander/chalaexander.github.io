@@ -6,10 +6,10 @@ function About() {
   return (
     <>
       <div className="container" id="about">
+        <h1 className="abt">About </h1>
         <div className="media w3-black">
           <img src={profilePic} className="img" alt="Profile Picture" />
           <div className="media-body">
-            <h2 className="abt">About </h2>
             <p id="aboutme">
               {" "}
               Brazilian full Stack Web Developer with a background in sales,
