@@ -1,6 +1,6 @@
 {
   "homepage": "https://chaalexander.github.io/reactPortfolio/",
-  "name": "chaalexander.github.io",
+  "name": "reactPortfolio",
   "version": "0.1.0",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
