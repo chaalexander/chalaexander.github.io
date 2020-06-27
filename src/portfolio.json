@@ -2,7 +2,7 @@
   {
     "id": 1,
     "cardTitle": "Stickler's Paradise",
-    "cardImage": "/assets/images/portfolio/stickler's.jpeg",
+    "cardImage": "/assets/portfolio/stickler's.jpeg",
     "cardText": "Application to search rules of games.",
     "liveLink": "https://sticklersparadise.herokuapp.com/",
     "code": "https://github.com/chaalexander/rules"
